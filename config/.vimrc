@@ -54,6 +54,8 @@ set listchars=tab:>·,trail:·,extends:…,precedes:…,nbsp:&
 set cursorline
 " " show matching parenthesis
 set showmatch
+" " word wrap
+set wrap
 
 
 "********************************************************
@@ -93,13 +95,6 @@ augroup END
 
 
 "********************************************************
-"					 Java Mapping						*
-"********************************************************
-" TODO: System.out.println();
-" TODO: add auto starting text
-au Filetype java inoremap ;ss System.out.println();<ESC>1hi
-
-"********************************************************
 "					 Tex Mappings						*
 "********************************************************
 augroup latex
@@ -112,19 +107,6 @@ augroup END
 "********************************************************
 "TODO: add syntax support for .jade
 "TODO: add syntax support for .styl
-
-"********************************************************
-"				 Algorithm Implementation				*
-"********************************************************
-" datastructure
-command DisjointSet 	:read ~/.vim/.template/datastructure/DisjointSet.java
-command Node 			:read ~/.vim/.template/datastructure/Node.java
-command Edge 			:read ~/.vim/.template/datastructure/Edge.java
-
-" Math Algorithms
-command PrimeSieve  	:read ~/.vim/.template/math/PrimeSieve.java
-command Totient 		:read ~/.vim/.template/math/Totient.java
-
 
 "********************************************************
 "						 ETC							*
