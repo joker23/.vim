@@ -49,7 +49,8 @@ filetype indent on
 set number
 " " indent lines
 set list
-set listchars=tab:>·,trail:·,extends:…,precedes:…,nbsp:&
+set listchars=tab:\ \ ,trail:·,extends:…,precedes:…,nbsp:&
+"set listchars=tab:>·,trail:·,extends:…,precedes:…,nbsp:&
 " " cursor highlighting
 set cursorline
 " " show matching parenthesis
@@ -66,7 +67,7 @@ set nowrap
 " "Use Autoindenting
 set autoindent
 " " set the colorscheme
-colorscheme desert
+colorscheme myColor
 
 
 "********************************************************
