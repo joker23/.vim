@@ -1,0 +1,27 @@
+"this is an rc file for a instance of perl
+"
+"author: Steven Zhang
+"
+
+" set :make as error check
+set makeprg=perl\ -c\ %\ $*
+set errorformat=%f:%l:%m
+set autowrite
+
+"********************************************************
+">··>···>···>···    internal mapping     >··>···>···>···*
+"********************************************************
+inoremap ;new		#!/usr/bin/perl
+"TODO: make this a external command
+
+inoremap ;p 		print
+"********************************************************
+">··>···>···>···    external mapping     >··>···>···>···*
+"********************************************************
+
+"********************************************************
+">··>···>···>···    external commands   >··>···>···>···*
+"********************************************************
+" running the code
+command Run			:!perl %
+

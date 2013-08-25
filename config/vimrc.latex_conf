@@ -1,0 +1,36 @@
+" my latex configuration
+" author : Steven Zhang
+
+
+set makeprg=pdflatex\ %
+
+""""""""""""""""""""""""""""""""""""""""""""
+" Startup
+""""""""""""""""""""""""""""""""""""""""""""
+command InitNote		:read ~/.vim/.template/util/LatexStart1.tex
+
+
+""""""""""""""""""""""""""""""""""""""""""""
+" Custom mappings
+""""""""""""""""""""""""""""""""""""""""""""
+inoremap ;code			\begin{lstlisting}<CR>\end{lstlisting}<ESC>O<TAB>
+inoremap ;init			\documentclass[10pt]{article}<CR><CR>\begin{document}<CR>\end{document}<ESC>O<TAB>
+inoremap ;inithw		\usepackage{amssymb,amsmath,amsthm}
+inoremap ;full			\usepackage{fullpage}
+
+""""""""""""""""""""""""""""""lists"""""""""""""""""""""""""""""""""""
+inoremap ;lst			\begin{itemize}<CR>\end{itemize}<ESC>O
+inoremap ;llst			\begin{enumerate}<CR>\end{enumerate}<ESC>O
+
+inoremap ;eq			\begin{equation}<CR>\end{equation}<ESC>O
+inoremap ;sp			\begin{split}<CR>\end{split}<ESC>O
+inoremap ;pr			\begin{proof}<CR>\end{proof}<ESC>O
+
+"""""""""""""""""""""""""""""""heirarchy""""""""""""""""""""""""""""""
+inoremap ;chp			\chapter{}<ESC>i
+inoremap ;sec			\section{}<ESC>i
+inoremap ;ssec			\subsection{}<ESC>i
+inoremap ;sssec			\subsubsection{}<ESC>i
+inoremap ;par			\paragraph{}<ESC>i
+inoremap ;ppar			\subparagraph<ESC>i
+
