@@ -22,9 +22,10 @@ inoremap ;full			\usepackage{fullpage}
 inoremap ;lst			\begin{itemize}<CR>\end{itemize}<ESC>O
 inoremap ;llst			\begin{enumerate}<CR>\end{enumerate}<ESC>O
 
-inoremap ;eq			\begin{equation}<CR>\end{equation}<ESC>O
+inoremap ;eq			\begin{equation*}<CR>\end{equation*}<ESC>O
 inoremap ;sp			\begin{split}<CR>\end{split}<ESC>O
 inoremap ;pr			\begin{proof}<CR>\end{proof}<ESC>O
+inoremap ;mat			\begin{pmatrix}<CR>\end{pmatrix}<ESC>O
 
 """""""""""""""""""""""""""""""heirarchy""""""""""""""""""""""""""""""
 inoremap ;chp			\chapter{}<ESC>i

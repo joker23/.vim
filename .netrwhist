@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/etc/init.d'
-let g:netrw_dirhist_2='/home/steven/.vim'
-let g:netrw_dirhist_3='/etc/python2.7'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/steven/ACM/codeChef'
+let g:netrw_dirhist_2='/home/steven/Programming/Tutorials/Dynamic Proxy Example/src'
+let g:netrw_dirhist_3='/home/steven/fall2013'
+let g:netrw_dirhist_4='/sys'
+let g:netrw_dirhist_5='/home/steven/fall2013/PHIL3127'

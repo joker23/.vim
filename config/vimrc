@@ -57,6 +57,10 @@ set cursorline
 set showmatch
 " " word wrap
 set wrap
+set linebreak
+" " mouse 
+set mouse=a
+
 
 
 "********************************************************

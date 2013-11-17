@@ -11,6 +11,7 @@ set errorformat=%A:%f:%l:\ %m,%-Z%p^,%-C.%#
 "********************************************************
 " commands
 command Poj0 			:read ~/.vim/.template/util/PojStart0.java
+command Poj1			:read ~/.vim/.template/util/PojStart1.java
 command Run				:!java %:r
 
 "********************************************************
@@ -19,6 +20,19 @@ command Run				:!java %:r
 " mapping
 inoremap ;ss 	System.out.println();<ESC>1hi
 inoremap ;main 	public static void main(String[] args){<ESC>o}<ESC>O
+
+" scanner
+inoremap ;iint	in.nextInt();
+inoremap ;idou	in.nextDouble();
+inoremap ;ii	in.next();
+
+" BufferedReader
+inoremap ;rln	in.readLine();
+inoremap ;srln	st = new StringTokenizer(in.readLine());
+inoremap ;sint	Integer.parseInt(st.nextToken());
+inoremap ;sdou	Double.parseDouble(st.nextToken());
+inoremap ;sstr	st.nextToken();
+inoremap ;slon	Long.parseLong(st.nextToken());
 
 "********************************************************
 ">··>···>···>··· Algorithm Implementation>··>···>···>···*
@@ -33,6 +47,23 @@ command PrimeSieve		:read ~/.algorithms/math/PrimeSieve.java
 command PrimeSieve1		:read ~/.algorithms/math/PrimeSieveExtended.java
 command Totient			:read ~/.algorithms/math/Totient.java
 command Fib				:read ~/.algorithms/math/Fib0.java
+command Catalan			:read ~/.algorithms/math/Catalan.java
+command GCD				:read ~/.algorithms/math/GCD.java
+command ConvexHull		:read ~/.algorithms/geometry/ConvexHull.java
 
 " graph Algorithms
 command BellmanFord		:read ~/.algorithms/graph/BellmanFord.java
+command MaxFlow			:read ~/.algorithms/graph/EdmoundsKarp.java
+command Kruskals		:read ~/.algorithms/graph/Kruskals.java
+command TpSort			:read ~/.algorithms/graph/Dfs_topologicalSort.java
+command Floyd			:read ~/.algorithms/graph/Floyd.java
+command ConnectedC		:read ~/.algorithms/graph/Dfs_ConnectedComponents.java
+command SCC				:read ~/.algorithms/graph/Dfs_scc
+
+" dp
+command Levinstein 		:read ~/.algorithms/dp/LevinsteinDistance.java
+command LIS				:read ~/.algorithms/dp/LongestIncreasingSubsequence.java
+command MatrixMult		:read ~/.algorithms/dp/MatrixMultiply.java
+
+" utility
+command PrintOut		:read ~/.algorithms/util/Print.java
