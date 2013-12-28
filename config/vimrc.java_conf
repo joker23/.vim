@@ -27,8 +27,8 @@ inoremap ;idou	in.nextDouble();
 inoremap ;ii	in.next();
 
 " BufferedReader
-inoremap ;rln	in.readLine();
-inoremap ;srln	st = new StringTokenizer(in.readLine());
+inoremap ;line	in.readLine();
+inoremap ;split	st = new StringTokenizer(in.readLine());
 inoremap ;sint	Integer.parseInt(st.nextToken());
 inoremap ;sdou	Double.parseDouble(st.nextToken());
 inoremap ;sstr	st.nextToken();

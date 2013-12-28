@@ -56,7 +56,6 @@ set cursorline
 " " show matching parenthesis
 set showmatch
 " " word wrap
-set wrap
 set linebreak
 " " mouse 
 set mouse=a
@@ -67,7 +66,7 @@ set mouse=a
 " 				Formatting Setting						*
 "********************************************************
 " " word wrapping
-set nowrap
+set wrap
 " "Use Autoindenting
 set autoindent
 " " set the colorscheme
