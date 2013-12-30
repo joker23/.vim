@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/steven/ACM/codeChef'
-let g:netrw_dirhist_2='/home/steven/Programming/Tutorials/Dynamic Proxy Example/src'
-let g:netrw_dirhist_3='/home/steven/fall2013'
-let g:netrw_dirhist_4='/sys'
-let g:netrw_dirhist_5='/home/steven/fall2013/PHIL3127'
-let g:netrw_dirhist_6='/home/steven/.script'
-let g:netrw_dirhist_7='leafpad'
-let g:netrw_dirhist_8='/home/steven/ACM/SER2011'
-let g:netrw_dirhist_9='/etc'
+let g:netrw_dirhist_cnt =0
