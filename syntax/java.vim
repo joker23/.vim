@@ -2,4 +2,4 @@
 " my addition to the java syntax file
 
 " Highlighting for class files
-syn match	javaType		"[A-Z][A-Za-z0-9_\[\]]*"
+syn match	javaType		"\s[A-Z][A-Za-z0-9_\[\]]*"

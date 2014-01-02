@@ -1,5 +1,4 @@
 "implementation of vimrc
-"TODO: change path to .vimrc
 
 "********************************************************
 " 				General Settings						*
@@ -57,7 +56,7 @@ set cursorline
 set showmatch
 " " word wrap
 set linebreak
-" " mouse 
+" " mouse
 set mouse=a
 
 
