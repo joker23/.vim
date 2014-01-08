@@ -8,14 +8,13 @@ set makeprg=pdflatex\ %
 " Startup
 """"""""""""""""""""""""""""""""""""""""""""
 command InitNote		:read ~/.vim/.template/util/LatexStart1.tex
-
+command InitHw			:read ~/.vim/.template/util/LatexStart2.tex
 
 """"""""""""""""""""""""""""""""""""""""""""
 " Custom mappings
 """"""""""""""""""""""""""""""""""""""""""""
 inoremap ;code			\begin{lstlisting}<CR>\end{lstlisting}<ESC>O<TAB>
 inoremap ;init			\documentclass[10pt]{article}<CR><CR>\begin{document}<CR>\end{document}<ESC>O<TAB>
-inoremap ;inithw		\usepackage{amssymb,amsmath,amsthm}
 inoremap ;full			\usepackage{fullpage}
 
 """"""""""""""""""""""""""""""lists"""""""""""""""""""""""""""""""""""
@@ -34,4 +33,12 @@ inoremap ;ssec			\subsection{}<ESC>i
 inoremap ;sssec			\subsubsection{}<ESC>i
 inoremap ;par			\paragraph{}<ESC>i
 inoremap ;ppar			\subparagraph<ESC>i
+
+""""""""""""""""""""""""""""hw stuff""""""""""""""""""""""""""""""""""
+inoremap ;theorem		\begin{theorem}{}<CR>\end{theorem}<ESC>O
+inoremap ;lemma			\begin{lemma}{}<CR>\end{lemma}<ESC>O
+inoremap ;exercise		\begin{exercise}{}<CR>\end{exercise}<ESC>O
+inoremap ;problem		\begin{problem}{}<CR>\end{problem}<ESC>O
+inoremap ;question		\begin{question}{}<CR>\end{question}<ESC>O
+inoremap ;corrollary	\begin{corrollary}{}<CR>\end{corrollary}<ESC>O
 
