@@ -13,6 +13,7 @@ Bundle 'gmarik/vundle'
 
 " my bundles
 Bundle 'terryma/vim-multiple-cursors'
+Bundle 'scrooloose/nerdtree'
 
 " Brief help
 " :BundleList          - list configured bundles
