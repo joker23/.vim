@@ -14,6 +14,7 @@ Bundle 'gmarik/vundle'
 " my bundles
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'scrooloose/nerdtree'
+Bundle 'vim-scripts/taglist.vim'
 
 " Brief help
 " :BundleList          - list configured bundles
