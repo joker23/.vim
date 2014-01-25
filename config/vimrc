@@ -170,3 +170,9 @@ inoremap <expr> )  strpart(getline('.'), col('.')-1, 1) == ")" ? "\<Right>" : ")
 "				 NERDTree utilities						*
 "********************************************************
 nnoremap <C-E>  	:NERDTreeToggle<CR>
+
+
+"********************************************************
+"				 Tag list utlities						*
+"********************************************************
+nnoremap <C-T>		:Tlist<CR>
