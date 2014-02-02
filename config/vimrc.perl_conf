@@ -23,5 +23,5 @@ inoremap ;p 		print
 ">··>···>···>···    external commands   >··>···>···>···*
 "********************************************************
 " running the code
-command Run			:!perl %
+command! Run			:!perl %
 

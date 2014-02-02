@@ -10,9 +10,9 @@ set errorformat=%A:%f:%l:\ %m,%-Z%p^,%-C.%#
 ">··>···>···>··· 	start commands 		>··>···>···>···*
 "********************************************************
 " commands
-command Poj0 			:read ~/.vim/.template/util/PojStart0.java
-command Poj1			:read ~/.vim/.template/util/PojStart1.java
-command Run				:!java %:r
+command! Poj0 			:read ~/.vim/.template/util/PojStart0.java
+command! Poj1			:read ~/.vim/.template/util/PojStart1.java
+command! Run				:!java %:r
 
 "********************************************************
 ">··>···>···>··· 	custom mappings		>··>···>···>···*
@@ -38,32 +38,29 @@ inoremap ;slon	Long.parseLong(st.nextToken());
 ">··>···>···>··· Algorithm Implementation>··>···>···>···*
 "********************************************************
 " datastructure
-command DisjointSet		:read ~/.algorithms/datastructure/DisjointSet.java
-command Node			:read ~/.algorithms/datastructure/Node.java
-command Edge			:read ~/.algorithms/datastructure/Edge.java
+command! DisjointSet		:read ~/.algorithms/datastructure/DisjointSet.java
+command! Node			:read ~/.algorithms/datastructure/Node.java
+command! Edge			:read ~/.algorithms/datastructure/Edge.java
 
 " Math Algorithms
-command PrimeSieve		:read ~/.algorithms/math/PrimeSieve.java
-command PrimeSieve1		:read ~/.algorithms/math/PrimeSieveExtended.java
-command Totient			:read ~/.algorithms/math/Totient.java
-command Fib				:read ~/.algorithms/math/Fib0.java
-command Catalan			:read ~/.algorithms/math/Catalan.java
-command GCD				:read ~/.algorithms/math/GCD.java
-command ConvexHull		:read ~/.algorithms/geometry/ConvexHull.java
+command! PrimeSieve		:read ~/.algorithms/math/PrimeSieve.java
+command! PrimeSieve1		:read ~/.algorithms/math/PrimeSieveExtended.java
+command! Totient			:read ~/.algorithms/math/Totient.java
+command! Fib				:read ~/.algorithms/math/Fib0.java
+command! Catalan			:read ~/.algorithms/math/Catalan.java
+command! GCD				:read ~/.algorithms/math/GCD.java
+command! ConvexHull		:read ~/.algorithms/geometry/ConvexHull.java
 
 " graph Algorithms
-command BellmanFord		:read ~/.algorithms/graph/BellmanFord.java
-command MaxFlow			:read ~/.algorithms/graph/EdmoundsKarp.java
-command Kruskals		:read ~/.algorithms/graph/Kruskals.java
-command TpSort			:read ~/.algorithms/graph/Dfs_topologicalSort.java
-command Floyd			:read ~/.algorithms/graph/Floyd.java
-command ConnectedC		:read ~/.algorithms/graph/Dfs_ConnectedComponents.java
-command SCC				:read ~/.algorithms/graph/Dfs_scc
+command! BellmanFord		:read ~/.algorithms/graph/BellmanFord.java
+command! MaxFlow			:read ~/.algorithms/graph/EdmoundsKarp.java
+command! Kruskals		:read ~/.algorithms/graph/Kruskals.java
+command! TpSort			:read ~/.algorithms/graph/Dfs_topologicalSort.java
+command! Floyd			:read ~/.algorithms/graph/Floyd.java
+command! ConnectedC		:read ~/.algorithms/graph/Dfs_ConnectedComponents.java
+command! SCC				:read ~/.algorithms/graph/Dfs_scc
 
 " dp
-command Levinstein 		:read ~/.algorithms/dp/LevinsteinDistance.java
-command LIS				:read ~/.algorithms/dp/LongestIncreasingSubsequence.java
-command MatrixMult		:read ~/.algorithms/dp/MatrixMultiply.java
-
-" utility
-command PrintOut		:read ~/.algorithms/util/Print.java
+command! Levinstein 		:read ~/.algorithms/dp/LevinsteinDistance.java
+command! LIS				:read ~/.algorithms/dp/LongestIncreasingSubsequence.java
+command! MatrixMult		:read ~/.algorithms/dp/MatrixMultiply.java

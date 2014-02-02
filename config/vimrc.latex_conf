@@ -7,8 +7,8 @@ set makeprg=pdflatex\ %
 """"""""""""""""""""""""""""""""""""""""""""
 " Startup
 """"""""""""""""""""""""""""""""""""""""""""
-command InitNote		:read ~/.vim/.template/util/LatexStart1.tex
-command InitHw			:read ~/.vim/.template/util/LatexStart2.tex
+command! InitNote		:read ~/.vim/.template/util/LatexStart1.tex
+command! InitHw			:read ~/.vim/.template/util/LatexStart2.tex
 
 """"""""""""""""""""""""""""""""""""""""""""
 " Custom mappings
