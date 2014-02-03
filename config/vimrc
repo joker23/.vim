@@ -176,3 +176,4 @@ nnoremap <C-E>  	:NERDTreeToggle<CR>
 "				 Tag list utlities						*
 "********************************************************
 nnoremap <C-T>		:Tlist<CR>
+let Tlist_Use_Right_Window   = 1
