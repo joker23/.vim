@@ -177,3 +177,8 @@ nnoremap <C-E>  	:NERDTreeToggle<CR>
 "********************************************************
 nnoremap <C-T>		:Tlist<CR>
 let Tlist_Use_Right_Window   = 1
+
+"*******************************************************
+"				MultiSelect utilities				   *
+"*******************************************************
+let g:multi_cursor_next_key='<C-d>'
