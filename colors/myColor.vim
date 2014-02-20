@@ -101,3 +101,5 @@ hi DiffAdd ctermfg=NONE ctermbg=23 cterm=NONE
 "hi TabLine -- no settings --
 hi cursorim ctermfg=235 ctermbg=60 cterm=NONE
 "hi clear -- no settings --
+
+""""""""""""""""'java highlighting""""""""""""""""""""

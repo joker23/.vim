@@ -15,6 +15,11 @@ Bundle 'gmarik/vundle'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'scrooloose/nerdtree'
 Bundle 'vim-scripts/taglist.vim'
+Bundle 'vim-scripts/javacomplete'
+"Bundle 'vim-scripts/vim-javacompleteex'
+Bundle 'xolox/vim-easytags'
+Bundle 'xolox/vim-misc'
+"Bundle 'qiulin/TagHighlight'
 
 " Brief help
 " :BundleList          - list configured bundles
@@ -84,6 +89,7 @@ set linebreak
 " " mouse
 set mouse=a
 
+set tags=tags;
 "********************************************************
 " 				Formatting Setting						*
 "********************************************************
