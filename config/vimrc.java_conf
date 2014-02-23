@@ -12,7 +12,7 @@ set errorformat=%A:%f:%l:\ %m,%-Z%p^,%-C.%#
 " commands
 command! Poj0 			:read ~/.vim/.template/util/PojStart0.java
 command! Poj1			:read ~/.vim/.template/util/PojStart1.java
-command! Run				:!java %:r
+command! Run			:!java %:r
 
 "********************************************************
 ">··>···>···>··· 	custom mappings		>··>···>···>···*
@@ -38,29 +38,32 @@ inoremap ;slon	Long.parseLong(st.nextToken());
 ">··>···>···>··· Algorithm Implementation>··>···>···>···*
 "********************************************************
 " datastructure
-command! DisjointSet		:read ~/.algorithms/datastructure/DisjointSet.java
-command! Node			:read ~/.algorithms/datastructure/Node.java
-command! Edge			:read ~/.algorithms/datastructure/Edge.java
+nnoremap ;DisjointSet	:read ~/.algorithms/datastructure/DisjointSet.java
+nnoremap ;Node			:read ~/.algorithms/datastructure/Node.java
+nnoremap ;Edge			:read ~/.algorithms/datastructure/Edge.java
 
 " Math Algorithms
-command! PrimeSieve		:read ~/.algorithms/math/PrimeSieve.java
-command! PrimeSieve1		:read ~/.algorithms/math/PrimeSieveExtended.java
-command! Totient			:read ~/.algorithms/math/Totient.java
-command! Fib				:read ~/.algorithms/math/Fib0.java
-command! Catalan			:read ~/.algorithms/math/Catalan.java
-command! GCD				:read ~/.algorithms/math/GCD.java
-command! ConvexHull		:read ~/.algorithms/geometry/ConvexHull.java
+nnoremap 	;primesieve		Gko<ESC>:r! sed -n 10,74p ~/.algorithms/math/PrimeSieve.java<CR>
+nnoremap 	;totient		Gko<ESC>:r! sed -n 8,32p ~/.algorithms/math/Totient.java<CR>
+nnoremap 	;fib			Gko<ESC>:r! sed -n 17,42p ~/.algorithms/math/Fib0.java<CR>
+nnoremap 	;catalan		Gko<ESC>:r! sed -n 13,21p ~/.algorithms/math/Catalan.java<CR>
+nnoremap 	;gcd			Gko<ESC>:r! sed -n 15,17p ~/.algorithms/math/GCD.java<CR>
+nnoremap	;primefactors	Gko<ESC>:r! sed -n 5,26p ~/.algorithms/math/PrimeFactorization.java<CR>
+nnoremap	;primetest		Gko<ESC>:r! sed -n 10,24p ~/.algorithms/math/PrimeTest0.java<CR>
+
+" Geometry Algorithms
+nnoremap ;ConvexHull		:read ~/.algorithms/geometry/ConvexHull.java
 
 " graph Algorithms
-command! BellmanFord		:read ~/.algorithms/graph/BellmanFord.java
-command! MaxFlow			:read ~/.algorithms/graph/EdmoundsKarp.java
-command! Kruskals		:read ~/.algorithms/graph/Kruskals.java
-command! TpSort			:read ~/.algorithms/graph/Dfs_topologicalSort.java
-command! Floyd			:read ~/.algorithms/graph/Floyd.java
-command! ConnectedC		:read ~/.algorithms/graph/Dfs_ConnectedComponents.java
-command! SCC				:read ~/.algorithms/graph/Dfs_scc
+nnoremap ;BellmanFord	:read ~/.algorithms/graph/BellmanFord.java
+nnoremap ;MaxFlow		:read ~/.algorithms/graph/EdmoundsKarp.java
+nnoremap ;Kruskals		:read ~/.algorithms/graph/Kruskals.java
+nnoremap ;TpSort			:read ~/.algorithms/graph/Dfs_topologicalSort.java
+nnoremap ;Floyd			:read ~/.algorithms/graph/Floyd.java
+nnoremap ;ConnectedC		:read ~/.algorithms/graph/Dfs_ConnectedComponents.java
+nnoremap ;SCC			:read ~/.algorithms/graph/Dfs_scc
 
 " dp
-command! Levinstein 		:read ~/.algorithms/dp/LevinsteinDistance.java
-command! LIS				:read ~/.algorithms/dp/LongestIncreasingSubsequence.java
-command! MatrixMult		:read ~/.algorithms/dp/MatrixMultiply.java
+nnoremap ;Levinstein 	:read ~/.algorithms/dp/LevinsteinDistance.java
+nnoremap ;LIS			:read ~/.algorithms/dp/LongestIncreasingSubsequence.java
+nnoremap ;MatrixMult		:read ~/.algorithms/dp/MatrixMultiply.java
