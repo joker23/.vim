@@ -1,5 +1,5 @@
 " my latex configuration
-" author : Steven Zhang
+" author : joker23
 
 
 set makeprg=pdflatex\ %

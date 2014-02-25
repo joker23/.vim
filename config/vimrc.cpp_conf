@@ -1,0 +1,9 @@
+" cpp config for desperate times
+
+set makeprg=g++\ %
+command! Run	:!./a.out
+
+""""""""""""""""""""""""""""""""""""""""
+" scanning
+""""""""""""""""""""""""""""""""""""""""
+

@@ -38,32 +38,31 @@ inoremap ;slon	Long.parseLong(st.nextToken());
 ">··>···>···>··· Algorithm Implementation>··>···>···>···*
 "********************************************************
 " datastructure
-nnoremap ;DisjointSet	:read ~/.algorithms/datastructure/DisjointSet.java
-nnoremap ;Node			:read ~/.algorithms/datastructure/Node.java
-nnoremap ;Edge			:read ~/.algorithms/datastructure/Edge.java
+nnoremap 	;disjointset		Gko<ESC>:r! sed -n 5,46p ~/.algorithms/datastructure/DisjointSet.java<CR>
+nnoremap 	;node				Gko<ESC>:r! sed -n 5,15p ~/.algorithms/datastructure/Node.java<CR>
+nnoremap 	;edge				Gko<ESC>:r! sed -n 7,18p ~/.algorithms/datastructure/Edge.java<CR>
+nnoremap	;trie				Gko<ESC>:r! sed -n 10,68p ~/.alogrithms/datastructure/ExampleTrie.java<CR>
 
 " Math Algorithms
-nnoremap 	;primesieve		Gko<ESC>:r! sed -n 10,74p ~/.algorithms/math/PrimeSieve.java<CR>
-nnoremap 	;totient		Gko<ESC>:r! sed -n 8,32p ~/.algorithms/math/Totient.java<CR>
-nnoremap 	;fib			Gko<ESC>:r! sed -n 17,42p ~/.algorithms/math/Fib0.java<CR>
-nnoremap 	;catalan		Gko<ESC>:r! sed -n 13,21p ~/.algorithms/math/Catalan.java<CR>
-nnoremap 	;gcd			Gko<ESC>:r! sed -n 15,17p ~/.algorithms/math/GCD.java<CR>
-nnoremap	;primefactors	Gko<ESC>:r! sed -n 5,26p ~/.algorithms/math/PrimeFactorization.java<CR>
-nnoremap	;primetest		Gko<ESC>:r! sed -n 10,24p ~/.algorithms/math/PrimeTest0.java<CR>
+nnoremap 	;primesieve			Gko<ESC>:r! sed -n 10,74p ~/.algorithms/math/PrimeSieve.java<CR>
+nnoremap 	;totient			Gko<ESC>:r! sed -n 8,32p ~/.algorithms/math/Totient.java<CR>
+nnoremap 	;fib				Gko<ESC>:r! sed -n 17,42p ~/.algorithms/math/Fib0.java<CR>
+nnoremap 	;catalan			Gko<ESC>:r! sed -n 13,21p ~/.algorithms/math/Catalan.java<CR>
+nnoremap 	;gcd				Gko<ESC>:r! sed -n 15,17p ~/.algorithms/math/GCD.java<CR>
+nnoremap	;primefactors		Gko<ESC>:r! sed -n 5,26p ~/.algorithms/math/PrimeFactorization.java<CR>
+nnoremap	;primetest			Gko<ESC>:r! sed -n 10,24p ~/.algorithms/math/PrimeTest0.java<CR>
 
 " Geometry Algorithms
-nnoremap ;ConvexHull		:read ~/.algorithms/geometry/ConvexHull.java
+nnoremap 	;convexhull			Gko<ESC>:r! sed -n 6,79p ~/.algorithms/geometry/ConvexHull.java<CR>
+nnoremap 	;dist				Gko<ESC>:r! sed -n 2,10p ~/.algorithms/geometry/Dist.java<CR>
+
 
 " graph Algorithms
-nnoremap ;BellmanFord	:read ~/.algorithms/graph/BellmanFord.java
-nnoremap ;MaxFlow		:read ~/.algorithms/graph/EdmoundsKarp.java
-nnoremap ;Kruskals		:read ~/.algorithms/graph/Kruskals.java
-nnoremap ;TpSort			:read ~/.algorithms/graph/Dfs_topologicalSort.java
-nnoremap ;Floyd			:read ~/.algorithms/graph/Floyd.java
-nnoremap ;ConnectedC		:read ~/.algorithms/graph/Dfs_ConnectedComponents.java
-nnoremap ;SCC			:read ~/.algorithms/graph/Dfs_scc
+nnoremap 	;bellman			Gko<ESC>:r! sed -n 16,74p ~/.algorithms/graph/BellmanFord.java<CR>
+nnoremap 	;maxflow			Gko<ESC>:r! sed -n 5,33p ~/.algorithms/graph/EdmoundsKarp.java<CR>
+nnoremap 	;kmst				Gko<ESC>:r! sed -n 11,83p ~/.algorithms/graph/Kruskals.java<CR>
+nnoremap 	;floyd				Gko<ESC>:r! sed -n 3,15p ~/.algorithms/graph/Floyd.java<CR>
 
 " dp
-nnoremap ;Levinstein 	:read ~/.algorithms/dp/LevinsteinDistance.java
-nnoremap ;LIS			:read ~/.algorithms/dp/LongestIncreasingSubsequence.java
-nnoremap ;MatrixMult		:read ~/.algorithms/dp/MatrixMultiply.java
+nnoremap 	;editdistance 		Gko<ESC>:r! sed -n 11,36 ~/.algorithms/dp/LevinsteinDistance.java<CR>
+nnoremap 	;matrixmult			Gko<ESC>:r! sed -n 12,31  ~/.algorithms/dp/MatrixMultiply.java<CR>

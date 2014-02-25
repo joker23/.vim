@@ -161,6 +161,7 @@ nnoremap ;i 			i
 inoremap ;o 			<Esc>
 " autoformatting
 inoremap ;fm 			<ESC>gg=Gi
+nnoremap ;fm			gg=G
 "}
 
 " autoclosing stuff
