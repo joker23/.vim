@@ -1,6 +1,6 @@
 " this is the configuration for java
 "
-"author: Steven Zhang
+"author: joker23
 
 " set :make as the javac
 set makeprg=javac\ %
@@ -10,8 +10,6 @@ set errorformat=%A:%f:%l:\ %m,%-Z%p^,%-C.%#
 ">··>···>···>··· 	start commands 		>··>···>···>···*
 "********************************************************
 " commands
-command! Poj0 			:read ~/.vim/.template/util/PojStart0.java
-command! Poj1			:read ~/.vim/.template/util/PojStart1.java
 command! Run			:!java %:r
 
 "********************************************************
@@ -29,10 +27,11 @@ inoremap ;ii	in.next();
 " BufferedReader
 inoremap ;line	in.readLine();
 inoremap ;split	st = new StringTokenizer(in.readLine());
-inoremap ;sint	Integer.parseInt(st.nextToken());
-inoremap ;sdou	Double.parseDouble(st.nextToken());
+inoremap ;sint	parseInt(st.nextToken());
+inoremap ;sdou	parseDouble(st.nextToken());
 inoremap ;sstr	st.nextToken();
-inoremap ;slon	Long.parseLong(st.nextToken());
+inoremap ;ssho	parseShort(st.nextToken());
+inoremap ;slon	parseLong(st.nextToken());
 
 "********************************************************
 ">··>···>···>··· Algorithm Implementation>··>···>···>···*
@@ -53,7 +52,7 @@ nnoremap	;primefactors		Gko<ESC>:r! sed -n 5,26p ~/.algorithms/math/PrimeFactori
 nnoremap	;primetest			Gko<ESC>:r! sed -n 10,24p ~/.algorithms/math/PrimeTest0.java<CR>
 
 " Geometry Algorithms
-nnoremap 	;convexhull			Gko<ESC>:r! sed -n 6,79p ~/.algorithms/geometry/ConvexHull.java<CR>
+nnoremap 	;convexhull			Gko<ESC>:r! sed -n 6,81p ~/.algorithms/geometry/ConvexHull.java<CR>
 nnoremap 	;dist				Gko<ESC>:r! sed -n 2,10p ~/.algorithms/geometry/Dist.java<CR>
 
 
