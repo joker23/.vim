@@ -90,7 +90,8 @@ set linebreak
 " " mouse
 set mouse=a
 
-set tags=tags;
+set tags=./.tags;,~/.vimtags
+let g:easytags_dynamic_files = 1
 "********************************************************
 " 				Formatting Setting						*
 "********************************************************

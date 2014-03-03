@@ -36,6 +36,8 @@ inoremap ;slon	parseLong(st.nextToken());
 "********************************************************
 ">··>···>···>··· Algorithm Implementation>··>···>···>···*
 "********************************************************
+nnoremap	;codebook			:read ~/Codebook/Code/
+
 " datastructure
 nnoremap 	;disjointset		Gko<ESC>:r! sed -n 5,46p ~/.algorithms/datastructure/DisjointSet.java<CR>
 nnoremap 	;node				Gko<ESC>:r! sed -n 5,15p ~/.algorithms/datastructure/Node.java<CR>
