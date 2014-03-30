@@ -14,13 +14,16 @@ Bundle 'gmarik/vundle'
 " my bundles
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'scrooloose/nerdtree'
-Bundle 'vim-scripts/taglist.vim'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'kemadz/taglist'
 Bundle 'vim-scripts/javacomplete'
 "Bundle 'vim-scripts/vim-javacompleteex'
 Bundle 'xolox/vim-easytags'
 Bundle 'xolox/vim-misc'
 "Bundle 'qiulin/TagHighlight'
 Bundle 'vim-scripts/better-whitespace'
+Bundle 'mbbill/undotree'
+Bundle 'Shougo/neocomplcache'
 
 " Brief help
 " :BundleList          - list configured bundles
@@ -89,6 +92,9 @@ set showmatch
 set linebreak
 " " mouse
 set mouse=a
+" " spell checking
+" set spell
+set foldenable                  " Auto fold code
 
 set tags=./.tags;
 let g:easytags_dynamic_files = 1
@@ -155,8 +161,8 @@ nnoremap <space>q 		:q<cr>
 nnoremap <f1> <esc>
 inoremap <f1> <esc>
 " spelling
-highlight clear SpellBad
-highlight SpellBad cterm=underline
+" highlight clear SpellBad
+" highlight SpellBad cterm=underline
 
 " ETC key mapping
 " toggle between insert mode
@@ -201,3 +207,20 @@ let g:multi_cursor_next_key='<C-d>'
 let g:strip_whitespace_on_save = 1
 inoremap ;clean		<ESC>:StripWhitespace<CR>i
 nnoremap ;clean		:StripWhitespace<CR>
+
+
+"*******************************************************
+"				  Comment  utilities				   *
+"*******************************************************
+
+" Code folding options
+nmap <leader>f0 :set foldlevel=0<CR>
+nmap <leader>f1 :set foldlevel=1<CR>
+nmap <leader>f2 :set foldlevel=2<CR>
+nmap <leader>f3 :set foldlevel=3<CR>
+nmap <leader>f4 :set foldlevel=4<CR>
+nmap <leader>f5 :set foldlevel=5<CR>
+nmap <leader>f6 :set foldlevel=6<CR>
+nmap <leader>f7 :set foldlevel=7<CR>
+nmap <leader>f8 :set foldlevel=8<CR>
+nmap <leader>f9 :set foldlevel=9<CR>
