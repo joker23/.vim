@@ -4,7 +4,7 @@
 
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/vundle.vim
 call vundle#rc()
 
 " let Vundle manage Vundle
@@ -15,10 +15,10 @@ Bundle 'gmarik/vundle'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
-Bundle 'kemadz/taglist'
+" Bundle 'kemadz/taglist'
 Bundle 'vim-scripts/javacomplete'
 "Bundle 'vim-scripts/vim-javacompleteex'
-Bundle 'xolox/vim-easytags'
+" Bundle 'xolox/vim-easytags'
 Bundle 'xolox/vim-misc'
 "Bundle 'qiulin/TagHighlight'
 Bundle 'vim-scripts/better-whitespace'
@@ -37,6 +37,8 @@ Bundle 'Shougo/neocomplcache'
 "********************************************************
 " 				General Settings						*
 "********************************************************
+set t_Co=256
+
 set nocompatible
 " " Enable syntax highlighting
 syntax on
@@ -96,9 +98,9 @@ set mouse=a
 " set spell
 set foldenable                  " Auto fold code
 
-set tags=./.tags;
-let g:easytags_dynamic_files = 1
-set regexpengine=1
+" set tags=./.tags;
+"let g:easytags_dynamic_files = 1
+" set regexpengine=1
 
 "********************************************************
 " 				Formatting Setting						*
