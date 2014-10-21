@@ -102,6 +102,8 @@ set foldenable                  " Auto fold code
 "let g:easytags_dynamic_files = 1
 " set regexpengine=1
 
+let &colorcolumn="81,".join(range(120,999),",")
+
 "********************************************************
 " 				Formatting Setting						*
 "********************************************************
@@ -110,8 +112,7 @@ set wrap
 " "Use Autoindenting
 set autoindent
 " " set the colorscheme
-colorscheme myColor
-
+colorscheme molokai2
 
 "********************************************************
 "					Python Mappings{					*

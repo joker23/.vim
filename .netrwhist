@@ -1,4 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/steven/codegt/codegt/views'
 let g:netrw_dirhist_2='/home/steven/smartsign/admin_tools/js'
+let g:netrw_dirhist_3='/home/steven/MarvelArchive/public/stylesheets'
+let g:netrw_dirhist_4='/home/steven/MarvelArchive/public'
+let g:netrw_dirhist_5='/home/steven'
+let g:netrw_dirhist_6='/home/steven/smartsign/admin_tools'
+let g:netrw_dirhist_7='/home/steven/smartsign/admin_tools/js'
+let g:netrw_dirhist_8='/home/steven/smartsign/admin_tools'
