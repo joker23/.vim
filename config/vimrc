@@ -4,8 +4,8 @@
 
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required!
@@ -16,9 +16,9 @@ Bundle 'terryma/vim-multiple-cursors'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'kemadz/taglist'
-Bundle 'vim-scripts/javacomplete'
+"Bundle 'vim-scripts/javacomplete'
 "Bundle 'vim-scripts/vim-javacompleteex'
-Bundle 'xolox/vim-easytags'
+"Bundle 'xolox/vim-easytags'
 Bundle 'xolox/vim-misc'
 "Bundle 'qiulin/TagHighlight'
 Bundle 'vim-scripts/better-whitespace'
@@ -33,6 +33,7 @@ Bundle 'Shougo/neocomplcache'
 "
 " see :h vundle for more details or wiki for FAQ
 " NOTE: comments after Bundle commands are not allowed
+call vundle#end()
 
 "********************************************************
 " 				General Settings						*
@@ -90,8 +91,6 @@ set cursorline
 set showmatch
 " " word wrap
 set linebreak
-" " mouse
-set mouse=a
 " " spell checking
 " set spell
 set foldenable                  " Auto fold code
