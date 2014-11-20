@@ -1,5 +1,5 @@
 "" This is my custom vim color file
-"" I made this look a lot like sublime text colors 
+"" I made this look a lot like sublime text colors
 "" with a few modifications
 
 set background=dark

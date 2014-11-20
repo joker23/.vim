@@ -15,10 +15,6 @@ Bundle 'gmarik/vundle'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
-Bundle 'kemadz/taglist'
-"Bundle 'vim-scripts/javacomplete'
-"Bundle 'vim-scripts/vim-javacompleteex'
-"Bundle 'xolox/vim-easytags'
 Bundle 'xolox/vim-misc'
 "Bundle 'qiulin/TagHighlight'
 Bundle 'vim-scripts/better-whitespace'
@@ -38,6 +34,8 @@ call vundle#end()
 "********************************************************
 " 				General Settings						*
 "********************************************************
+set t_Co=256
+
 set nocompatible
 " " Enable syntax highlighting
 syntax on
@@ -95,9 +93,11 @@ set linebreak
 " set spell
 set foldenable                  " Auto fold code
 
-set tags=./.tags;
-let g:easytags_dynamic_files = 1
-set regexpengine=1
+" set tags=./.tags;
+"let g:easytags_dynamic_files = 1
+" set regexpengine=1
+
+let &colorcolumn="81,".join(range(120,999),",")
 
 "********************************************************
 " 				Formatting Setting						*
@@ -107,8 +107,7 @@ set wrap
 " "Use Autoindenting
 set autoindent
 " " set the colorscheme
-colorscheme myColor
-
+colorscheme molokai2
 
 "********************************************************
 "					Python Mappings{					*
